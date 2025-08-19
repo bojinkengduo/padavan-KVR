@@ -156,9 +156,6 @@ jobs:
         ##系统组件
         #启用 IPv6 支持
         echo "CONFIG_FIRMWARE_ENABLE_IPV6=y" >> .config
-
-        #隐藏VPN web ui
-        echo "CONFIG_FIRMWARE_WEBUI_HIDE_VPN=y" >> .config
               
         ##下载工具 curl 必备
         echo "CONFIG_FIRMWARE_INCLUDE_CURL=y" >> .config
